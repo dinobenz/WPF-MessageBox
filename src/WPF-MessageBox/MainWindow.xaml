@@ -1,0 +1,23 @@
+﻿<Window x:Class="Dinobenz.Wpf.MessageBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dinobenz.Wpf.MessageBox" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="70"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Content="Message" Click="Message_Click"/>
+        <Button Grid.Row="1" Content="Message and Caption" Click="Message_Caption_Click"/>
+        <Button Grid.Row="2" Content="Message, Caption and YesNo Button" Click="Message_Caption_Button_Click"/>
+        <Button Grid.Row="3" Content="Message, Caption, Button and Icon" Click="Message_Caption_Button_Icon_Click"/>
+    </Grid>
+</Window>
