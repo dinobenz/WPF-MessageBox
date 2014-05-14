@@ -3,6 +3,8 @@ WPF-MessageBox
 
 Custom WPF MessageBox
 
+![alt tag](https://raw.github.com/dinobenz/WPF-MessageBox/master/src/WPF-MessageBox/Image/Mockup.png)
+
 Usage
 ==============
 Display message text
